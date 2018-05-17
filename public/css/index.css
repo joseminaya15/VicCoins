@@ -12,6 +12,9 @@ body{
 	max-width: 1150px;
 	margin: auto;
 }
+.mdl-container.mdl-table{
+	max-width: 420px;
+}
 .mdl-title{
 	text-align: center;
 }
@@ -111,6 +114,7 @@ p{
 .nav-tabs>li>a{
 	color: #FFFFFF;
 	border: none;
+	background-color: transparent !important;
 }
 .nav-tabs>li>a:hover{
 	background-color: transparent;
