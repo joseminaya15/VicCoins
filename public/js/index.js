@@ -1,4 +1,4 @@
-window.addEventListener("load", function() {
+$(window).load(function() {
     setTimeout(function() {
     	$('.fondo-imagen').addClass('animacion');
     	$('.js-top').addClass('animated fadeOutLeft');
